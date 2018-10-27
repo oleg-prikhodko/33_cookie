@@ -62,14 +62,14 @@
         } else if (response.status==400){
           return response.json()
         } else if (response.status==500){
-          riotTag.errors = ['Упс, что-то пошло не так. Ошибка на сервере']
+          riotTag.errors = [{explanation: 'Упс, что-то пошло не так. Ошибка на сервере'}]
           riotTag.update()
         }
       }).then(jsonResponse => {
         riotTag.errors = jsonResponse.errors
         riotTag.update()
       }).catch(function(error) {
-        riotTag.errors = ['Упс, что-то пошло не так']
+        riotTag.errors = [{explanation: 'Упс, что-то пошло не так'}]
         console.error(error)
         riotTag.update()
       })
