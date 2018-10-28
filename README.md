@@ -1,21 +1,18 @@
-# Frontend for SPA «ПомойАвто»
+# Frontend for car washing SPA
 
-It is a frontend for single page application. Reach JavaScript is present.
+Front end single page application for a car washing service
 
-# Deploy on localhost
+# Quickstart
 
 Example of frontend launch on Linux, Python 3.5:
 
 ```bash
-cd static/
-python3 -m http.server
+$ cd static/
+$ python3 -m http.server
 ```
 
 Open page [127.0.0.1:8000](http://127.0.0.1:8000) in browser.
 
-# Deploy on production server
-
-[TODO. Deploy scripts will written later]
 
 # Project Goals
 
