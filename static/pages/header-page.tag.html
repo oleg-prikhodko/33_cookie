@@ -1,0 +1,21 @@
+<header-page>
+  <div class="header clearfix">
+    <nav>
+      <ul class="nav nav-pills pull-right">
+        <li role="presentation" class={active:opts.page=='cars'}>
+          <a href="#/cars" onclick="window.go2page('/cars')">Мои автомобили</a>
+        </li>
+        <li role="presentation" class={active:opts.page=='signup'}>
+          <a href="#/signup" onclick="window.go2page('/signup')">Регистрация</a>
+        </li>
+      </ul>
+    </nav>
+    <h3 class="text-muted">ПомойАвто</h3>
+  </div>
+
+  <!-- <script type="text/javascript">
+    this.page = "signup"
+    var riotTag = this
+  </script> -->
+
+</header-page>
