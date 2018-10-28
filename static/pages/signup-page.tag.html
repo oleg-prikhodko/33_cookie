@@ -58,7 +58,7 @@
         credentials: 'include'
       }).then(function(response) {
         if (response.status==200){
-          window.go2page('/')
+          window.go2page('/cars')
         } else if (response.status==400){
           return response.json()
         } else if (response.status==500){
