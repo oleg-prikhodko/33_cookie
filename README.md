@@ -8,10 +8,10 @@ Example of frontend launch on Linux, Python 3.5:
 
 ```bash
 $ cd static/
-$ python3 -m http.server
+$ python3 -m http.server 9000
 ```
 
-Open page [127.0.0.1:8000](http://127.0.0.1:8000) in browser.
+Open page [localhost:9000](http://localhost:9000) in a browser.
 
 
 # Project Goals
